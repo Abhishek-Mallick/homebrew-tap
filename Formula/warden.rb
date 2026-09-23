@@ -2,28 +2,30 @@
 class Warden < Formula
   desc "Governed data-access runtime for AI agents"
   homepage "https://github.com/Abhishek-Mallick/warden-dist"
-  version "0.1.0"
-  # license: add one to the repository and declare it here.
+  version "0.1.1"
+  # Proprietary terms, so no SPDX identifier applies. See LICENSE.md in
+  # the distribution repository.
+  license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.0/warden_0.1.0_darwin_arm64.tar.gz"
-      sha256 "22e861ef55e03dcaad07cac8f0351b8ad8bf6c972ecf6cee49c25de1fd116f73"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_darwin_arm64.tar.gz"
+      sha256 "0dcc371a92c668781db9d48815b7f328178d3e8665b06e1642140b580400011c"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.0/warden_0.1.0_darwin_amd64.tar.gz"
-      sha256 "3eba0e1e844819969c3948b0a2247a0ad3909ab67903d5f75ce5293f99058241"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_darwin_amd64.tar.gz"
+      sha256 "3d5569cca87ce841c6e984f66356b509856c9fe2177fcf000857397b11726cbb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.0/warden_0.1.0_linux_arm64.tar.gz"
-      sha256 "0cba0e2d3f7200598a93a6d122cecc95e179b5a29156b3f6eaef703785bdca2a"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_linux_arm64.tar.gz"
+      sha256 "f18e2e0bf10377b8861dec9760a6b1f04876c9cd07d4054fefc117913559dcf7"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.0/warden_0.1.0_linux_amd64.tar.gz"
-      sha256 "d781c63aaddd429d6c26065be193717848d7f3b11f2a5780922a737eb248e398"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_linux_amd64.tar.gz"
+      sha256 "1321b282c5437462c28d27f95a655619a366b4a2de125cdac1796c59c84ad454"
     end
   end
 
