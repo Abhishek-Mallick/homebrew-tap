@@ -2,30 +2,30 @@
 class Warden < Formula
   desc "Governed data-access runtime for AI agents"
   homepage "https://github.com/Abhishek-Mallick/warden-dist"
-  version "0.1.1"
+  version "0.1.2"
   # Proprietary terms, so no SPDX identifier applies. See LICENSE.md in
   # the distribution repository.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_darwin_arm64.tar.gz"
-      sha256 "0dcc371a92c668781db9d48815b7f328178d3e8665b06e1642140b580400011c"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_darwin_arm64.tar.gz"
+      sha256 "0a6cc4f69164542b893e34c06ea29dd42aa10d4759f8e235e74f8224b1035715"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_darwin_amd64.tar.gz"
-      sha256 "3d5569cca87ce841c6e984f66356b509856c9fe2177fcf000857397b11726cbb"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_darwin_amd64.tar.gz"
+      sha256 "d690cb84396dda115a06a31b3f381cd9814cd6c6088f93d16669525a56e3adad"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_linux_arm64.tar.gz"
-      sha256 "f18e2e0bf10377b8861dec9760a6b1f04876c9cd07d4054fefc117913559dcf7"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_linux_arm64.tar.gz"
+      sha256 "b8dde396644ba74c7079a8bd63a7d5537e87ea0645c851d38c5ca84f36b00eaf"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.1/warden_0.1.1_linux_amd64.tar.gz"
-      sha256 "1321b282c5437462c28d27f95a655619a366b4a2de125cdac1796c59c84ad454"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_linux_amd64.tar.gz"
+      sha256 "0bb8ed2f52482ae05ec6dfd24be51c919347afd5e61605bf06a4e17135c4d093"
     end
   end
 
