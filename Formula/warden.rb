@@ -2,30 +2,30 @@
 class Warden < Formula
   desc "Governed data-access runtime for AI agents"
   homepage "https://github.com/Abhishek-Mallick/warden-dist"
-  version "0.1.2"
+  version "0.1.3"
   # Proprietary terms, so no SPDX identifier applies. See LICENSE.md in
   # the distribution repository.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_darwin_arm64.tar.gz"
-      sha256 "0a6cc4f69164542b893e34c06ea29dd42aa10d4759f8e235e74f8224b1035715"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_darwin_arm64.tar.gz"
+      sha256 "8c01c11da9f884d09f8ba438e6f6625f91a836c423ec8dc24b8a298c5552732c"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_darwin_amd64.tar.gz"
-      sha256 "d690cb84396dda115a06a31b3f381cd9814cd6c6088f93d16669525a56e3adad"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_darwin_amd64.tar.gz"
+      sha256 "16a75e42ac4e4dd806904f56487e4b5fec4e1d8e0b816cdb61e9a8290b58f7d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_linux_arm64.tar.gz"
-      sha256 "b8dde396644ba74c7079a8bd63a7d5537e87ea0645c851d38c5ca84f36b00eaf"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_linux_arm64.tar.gz"
+      sha256 "b829cf7d4e24a3585725994d77599d3753c5550fc212b064ecc4c5f10b0c8617"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.2/warden_0.1.2_linux_amd64.tar.gz"
-      sha256 "0bb8ed2f52482ae05ec6dfd24be51c919347afd5e61605bf06a4e17135c4d093"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_linux_amd64.tar.gz"
+      sha256 "ce2d14174967ed543ce35aff6d23100391e951a1dd4e47cc1ff9f09234d7e64f"
     end
   end
 
