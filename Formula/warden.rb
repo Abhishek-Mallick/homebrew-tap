@@ -2,30 +2,30 @@
 class Warden < Formula
   desc "Governed data-access runtime for AI agents"
   homepage "https://github.com/Abhishek-Mallick/warden-dist"
-  version "0.1.3"
+  version "0.2.0"
   # Proprietary terms, so no SPDX identifier applies. See LICENSE.md in
   # the distribution repository.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_darwin_arm64.tar.gz"
-      sha256 "8c01c11da9f884d09f8ba438e6f6625f91a836c423ec8dc24b8a298c5552732c"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.2.0/warden_0.2.0_darwin_arm64.tar.gz"
+      sha256 "d24e59ffbbc58b2c4c5ebcfa0c4b7005c09fd60307934991db0dc8aa59e2cae6"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_darwin_amd64.tar.gz"
-      sha256 "16a75e42ac4e4dd806904f56487e4b5fec4e1d8e0b816cdb61e9a8290b58f7d3"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.2.0/warden_0.2.0_darwin_amd64.tar.gz"
+      sha256 "a4b1d55a0fa0e2e554eddb442a6d401cf8be269a28c7aab08d6677ea393210ab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_linux_arm64.tar.gz"
-      sha256 "b829cf7d4e24a3585725994d77599d3753c5550fc212b064ecc4c5f10b0c8617"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.2.0/warden_0.2.0_linux_arm64.tar.gz"
+      sha256 "390709c190eca609aca095d3f9e22deee1e1dfddd2bbc308c7810c82c349b9a8"
     end
     on_intel do
-      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.1.3/warden_0.1.3_linux_amd64.tar.gz"
-      sha256 "ce2d14174967ed543ce35aff6d23100391e951a1dd4e47cc1ff9f09234d7e64f"
+      url "https://github.com/Abhishek-Mallick/warden-dist/releases/download/v0.2.0/warden_0.2.0_linux_amd64.tar.gz"
+      sha256 "6fd1d24add5327f4ee741d243a02c5eb53d91448c47ba6edd3912905e184ae60"
     end
   end
 
